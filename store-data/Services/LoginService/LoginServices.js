@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const AppNavigator = () => {
+const LoginServices = () => {
   return (
     <View>
-      <Text>AppNavigator</Text>
+      <Text>LoginServices</Text>
     </View>
   );
 };
 
-export default AppNavigator;
+export default LoginServices;

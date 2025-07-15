@@ -28,7 +28,6 @@ const LoginScreen = () => {
   const handleLogin = async () => {
     if (Email && Password) {
       try {
-        // Login işlemini dispatch ediyoruz ve sonucu bekliyoruz
         const result = await LoginRequest({ Email, Password });
 
         if (result.success) {
