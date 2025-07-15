@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "merzifonindirim",
-    "slug": "merzifonindirim",
+    "slug": "merzifondiscountapp-s3nxniyexdjx9anhx",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.emregunnney.merzifondiscountapps3nxniyexdjx9anhx"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bb22dc1e-7d9c-46f4-a320-f7c25339f962"
+      }
+    },
+    "owner": "emregunnney"
   }
 }
